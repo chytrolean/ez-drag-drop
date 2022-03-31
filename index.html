@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@3.0.11"></script>
+    <script src="https://cdn.jsdelivr.net/gh/bevacqua/dragula@3.7.3/dist/dragula.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bevacqua/dragula@3.7.3/dist/dragula.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="drag.js"></script>
+    <script src="app.js" defer></script>
+</head>
+<body onload="init()">
+    <div id="app">
+        <ul id="dragparent">
+            <li  v-for="item in list" class="dragthing">{{item.name}}</li>
+        </ul>
+    </div>
+</body>
+</html>

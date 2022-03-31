@@ -1,0 +1,44 @@
+.dragthing{
+    padding: 20px 50px;
+    background: #bada55;
+    margin: 10px 0;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 900;
+    transition: .6s;
+}
+*{
+    list-style: none;
+}
+.dragthing:nth-child(1) {
+    background: #d9ed92;
+}
+.dragthing:nth-child(2) {
+    background: #b5e48c;
+}
+.dragthing:nth-child(3) {
+    background: #99d98c;
+}
+.dragthing:nth-child(4) {
+    background: #76c893;
+}
+.dragthing:nth-child(5) {
+    background: #52b69a;
+    color: #fff;
+}
+.dragthing:nth-child(6) {
+    background: #34a0a4;
+    color: #fff;
+}
+.dragthing:nth-child(7) {
+    background: #168aad;
+    color: #fff;
+}
+.dragthing:nth-child(8) {
+    background: #1a759f;
+    color: #fff;
+}
+.dragthing:nth-child(9) {
+    background: #1e6091;
+    color: #fff;
+}
